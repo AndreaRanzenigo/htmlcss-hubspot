@@ -110,6 +110,12 @@ main {
   color: #09094c;
 }
 
+.bottom-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 main .title {
   width: 40%;
 }
@@ -147,4 +153,59 @@ main .title {
   right: 0;
   top: 25%;
   z-index: -1;
+}
+
+/* Seconda parte */
+.powerful {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  margin-top: 30%;
+}
+
+.freehubspot {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+
+.main-box {
+  width: 100%;
+  height: 400px;
+  background-color: yellow;
+}
+
+.main-box .box {
+  width: 33.333%;
+  height: 200px;
+  background-color: grey;
+  float: left;
+  border: 1px solid black;
+}
+
+.main-box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Box con sfondo background azzurro */
+.box-blue {
+  width: 100%;
+  height: 300px;
+  background-color: lightblue;
+}
+
+.box-blue .mini-box {
+  width: 33.333%;
+  height: 200px;
+  background-color: lightgrey;
+  float: left;
+  border: 1px solid black;
+}
+
+.box-blue {
+  content: "";
+  display: table;
+  clear: both;
 }
