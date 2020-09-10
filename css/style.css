@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
 /* header */
 .container-header::after {
   content: "";
@@ -19,10 +32,8 @@
   margin-bottom: 10px;
 }
 .language {
-  width: 20%;
-  height: 40px;
+  width: auto;
   float: left;
-  text-align: right;
   border-right: 1px solid grey;
   padding: 10px 10px;
   color: #09094c;
@@ -30,7 +41,6 @@
 
 .contact {
   width: 40%;
-  height: 40px;
   float: left;
   padding: 10px 10px;
   color: #09094c;
@@ -38,7 +48,6 @@
 
 .search-button {
   width: 10%;
-  height: 40px;
   float: left;
   padding: 10px 10px;
   text-align: right;
@@ -62,7 +71,6 @@
 
 .hubspot {
   width: 15%;
-  height: 40px;
   float: left;
 }
 
@@ -82,16 +90,18 @@
   margin-top: 10px;
 }
 
-.logo img {
-  position: relative;
-  left: 33%;
+.bottom-header img {
+  padding-top: 30px;
 }
 
+
+/* Barra menu principale */
 .main-menu {
   width: 60%;
   float: left;
   text-align: center;
   margin-top: 10px;
+  padding-top: 30px;
 }
 
 .main-menu li {
@@ -102,6 +112,39 @@
 
 main .title {
   width: 40%;
-  height: 500px;
-  background: red;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title p {
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.title button {
+  text-align: left;
+  padding: 15px 15px;
+  margin-top: 30px;
+  color: white;
+  background-color: #e87550;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+}
+
+.title-img {
+  width: 100%;
+  /* background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-size: 90%; */
+}
+
+.title-img img {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  z-index: -1;
 }
