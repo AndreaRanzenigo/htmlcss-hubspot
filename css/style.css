@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.container-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-header {
+  margin-top: 10px;
+}
+
+.top-header {
+  margin-bottom: 10px;
+}
+.language {
+  width: 20%;
+  height: 40px;
+  float: left;
+  text-align: right;
+  border-right: 1px solid grey;
+  padding: 10px 10px;
+  color: #09094c;
+}
+
+.contact {
+  width: 40%;
+  height: 40px;
+  float: left;
+  padding: 10px 10px;
+  color: #09094c;
+}
+
+.search-button {
+  width: 10%;
+  height: 40px;
+  float: left;
+  padding: 10px 10px;
+  text-align: right;
+  color: #2196f3;
+}
+
+.button-login {
+  margin-right: 30px;
+  height: 40px;
+  float: left;
+}
+
+.button-login button {
+  text-align: left;
+  padding: 10px 10px;
+  color: #e87550;
+  border: 1px solid #e87550;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.hubspot {
+  width: 15%;
+  height: 40px;
+  float: left;
+}
+
+.hubspot button {
+  text-align: left;
+  padding: 10px 10px;
+  color: white;
+  background-color: #e87550;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+
+.logo {
+  width: 40%;
+  float: left;
+  margin-top: 10px;
+}
+
+.logo img {
+  position: relative;
+  left: 33%;
+}
+
+.main-menu {
+  width: 60%;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-menu li {
+  display: inline-block;
+  padding: 15px;
+  color: #09094c;
+}
+
+main .title {
+  width: 40%;
+  height: 500px;
+  background: red;
+}
