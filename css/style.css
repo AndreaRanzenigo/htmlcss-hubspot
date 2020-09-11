@@ -17,6 +17,15 @@ main {
   width: 80%;
   margin: auto;
 }
+
+a {
+  text-decoration: none;
+  color: #09094c;
+}
+
+p {
+  line-height: 25px;
+}
 /* header */
 .container-header::after {
   content: "";
@@ -69,6 +78,11 @@ main {
   font-size: 18px;
 }
 
+.button-login button:hover {
+  background-color: #e87550;
+  color: white;
+}
+
 .hubspot {
   width: 15%;
   float: left;
@@ -82,6 +96,10 @@ main {
   border-radius: 5px;
   font-size: 18px;
   border: none;
+}
+
+.hubspot button:hover {
+  background-color: orange;
 }
 
 .logo {
@@ -108,6 +126,15 @@ main {
   display: inline-block;
   padding: 15px;
   color: #09094c;
+}
+
+.main-menu li:hover {
+  background-color: #e87550;
+  color: white;
+}
+
+.main-menu a:hover {
+  color: white;
 }
 
 .bottom-header::after {
@@ -140,6 +167,10 @@ main .title {
   border: none;
 }
 
+.title button:hover {
+  background-color: orange;
+}
+
 .title-img {
   width: 100%;
   /* background-image: url("../img/jumbotron.png");
@@ -158,29 +189,107 @@ main .title {
 /* Seconda parte */
 .powerful {
   width: 100%;
-  height: 300px;
-  background-color: red;
-  margin-top: 30%;
+  margin-top: 40%;
+  text-align: center;
+}
+
+.powerful img {
+  width: 20%;
+}
+
+.powerful h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .freehubspot {
   width: 100%;
   height: 200px;
-  background-color: green;
+  margin-top: 15%;
+}
+
+.freehubspot .left {
+  width: 40%;
+  height: 200px;
+  text-align: center;
+}
+
+.left {
+  width: 40%;
+  height: 300px;
+  float: left;
+}
+
+.freehubspot .right {
+  width: 100%;
+  height: 150px;
+}
+
+.freehubspot .right h3 {
+  padding: 20px;
+}
+
+.freehubspot .right h4 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.freehubspot .right hr {
+  display: inline;
+}
+
+.freehubspot .left img {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.freehubspot .left button {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 15px;
+  color: white;
+  background-color: #e87550;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+}
+
+.freehubspot .left button:hover {
+  background-color: orange;
+}
+
+.freehubspot ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.freehubspot span {
+  padding: 0 5px;
+}
+
+.freehubspot span i {
+  color: #e87550;
 }
 
 .main-box {
   width: 100%;
   height: 400px;
   background-color: yellow;
+  margin-top: 10%;
 }
 
 .main-box .box {
   width: 33.333%;
   height: 200px;
   background-color: grey;
+  text-align: center;
   float: left;
   border: 1px solid black;
+}
+
+.main-box .box img {
+  width: 30%;
 }
 
 .main-box::after {
@@ -197,7 +306,7 @@ main .title {
 }
 
 .box-blue .mini-box {
-  width: 33.333%;
+  width: 25%;
   height: 200px;
   background-color: lightgrey;
   float: left;
@@ -213,17 +322,10 @@ main .title {
 
 /* Final Box */
 .final-main {
-  width: 100%;
+  width: 80%;
   height: 600px;
+  margin: auto;
   background-color: purple;
-}
-
-.left {
-  width: 40%;
-  height: 300px;
-  background-color: lightgreen;
-  border: 1px solid black;
-  float: left;
 }
 
 .loghi {
