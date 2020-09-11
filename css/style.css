@@ -420,8 +420,37 @@ main .title {
 .final-main {
   width: 80%;
   height: 600px;
-  margin: auto;
+  margin: 30px auto;
   background-color: purple;
+}
+
+.final-main .left {
+  padding: 30px 130px;
+}
+
+.final-main .left h3 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.loghi .box-loghi {
+  width: 25%;
+  height: 150px;
+  background-color: brown;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.loghi .box-loghi img {
+  width: 80%;
+  padding-top: 55px;
+}
+
+.loghi::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .loghi {
@@ -429,7 +458,13 @@ main .title {
   height: 300px;
   background-color: yellow;
   border: 1px solid black;
+  text-align: right;
   float: left;
+}
+
+.loghi img {
+  width: 33%;
+  padding-top: 20px;
 }
 
 .final-main::after {
