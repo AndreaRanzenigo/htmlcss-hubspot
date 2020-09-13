@@ -507,24 +507,120 @@ main .title {
 }
 
 /* Footer */
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 .box-footer {
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin-top: 50px;
   background-color: #334a5b;
 }
 
 .elenco-footer {
   width: 80%;
-  height: 300px;
-  background-color: blue;
   margin: auto;
+}
+
+.elenco-footer {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .ul-footer {
   width: 25%;
-  height: 200px;
-  background-color: orange;
   float: left;
-  border: 1px solid black;
+}
+
+.ul-footer h4 {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+}
+
+.ul-footer li {
+  list-style: none;
+  padding-left: 10px;
+  color: white;
+  line-height: 30px;
+}
+
+.ul-footer button {
+  display: block;
+  padding: 15px 15px;
+  margin: 10px;
+  color: #334a5b;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+}
+
+.ul-footer button:hover {
+  background-color: #001f35;
+  color: white;
+}
+
+.ul-footer .social i {
+  color: white;
+  padding: 0 10px;
+}
+
+.list-language {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.list-language li {
+  color: white;
+  display: inline;
+  padding: 15px;
+}
+
+.list-language .tail {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.list-language .img-footer {
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  float: left;
+}
+
+.list-language .img-footer img {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.list-language .img-footer span {
+  color: white;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.list-language .privacy {
+  width: 50%;
+  height: 50px;
+  text-align: right;
+  padding-top: 25px;
+  float: left;
+}
+
+.tail::after {
+  content: "";
+  display: table;
+  clear: both;
 }
