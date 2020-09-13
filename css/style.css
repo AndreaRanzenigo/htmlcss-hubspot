@@ -214,12 +214,6 @@ main .title {
   text-align: center;
 }
 
-.left {
-  width: 40%;
-  height: 300px;
-  float: left;
-}
-
 .freehubspot .right {
   width: 100%;
   height: 150px;
@@ -346,10 +340,12 @@ main .title {
 .box-blue {
   width: 100%;
   height: 300px;
-  background-color: #00bcd4;
+  background-image: linear-gradient(to right, #08acad, #b0e2de);
   text-align: center;
   margin-top: 50px;
 }
+
+/* #00bcd4 */
 
 .box-blue .container-blue {
   width: 80%;
@@ -419,16 +415,36 @@ main .title {
 /* Final Box */
 .final-main {
   width: 80%;
-  height: 600px;
   margin: 30px auto;
-  background-color: purple;
 }
 
-.final-main .left {
-  padding: 30px 130px;
+.left {
+  width: 50%;
+  float: left;
 }
 
-.final-main .left h3 {
+.left-first {
+  width: 30%;
+  padding-left: 100px;
+  padding-top: 30px;
+  float: left;
+}
+
+.final-main .left h4 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.final-main .loghi-second {
+  width: 50%;
+  float: left;
+}
+
+.final-main .left-first {
+  /* padding: 30px 130px; */
+}
+
+.final-main .left-first h3 {
   font-size: 50px;
   padding-bottom: 30px;
 }
@@ -436,10 +452,8 @@ main .title {
 .loghi .box-loghi {
   width: 25%;
   height: 150px;
-  background-color: brown;
   float: left;
   text-align: center;
-  border: 1px solid black;
 }
 
 .loghi .box-loghi img {
@@ -454,17 +468,17 @@ main .title {
 }
 
 .loghi {
-  width: 60%;
-  height: 300px;
-  background-color: yellow;
-  border: 1px solid black;
+  width: 70%;
+  padding-left: 200px;
   text-align: right;
   float: left;
 }
 
-.loghi img {
-  width: 33%;
+.loghi-second img {
+  width: 40%;
   padding-top: 20px;
+  position: relative;
+  left: 70%;
 }
 
 .final-main::after {
@@ -473,11 +487,31 @@ main .title {
   clear: both;
 }
 
+.final-main .left button {
+  display: block;
+  margin-top: 40px;
+  padding: 15px 15px;
+  color: white;
+  background-color: #e87550;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+.final-main .left button:hover {
+  background-color: orange;
+}
+
+.final-main .left p {
+  padding-top: 25px;
+}
+
 /* Footer */
 .box-footer {
   width: 100%;
   height: 400px;
-  background-color: red;
+  margin-top: 50px;
+  background-color: #334a5b;
 }
 
 .elenco-footer {
